@@ -4,8 +4,10 @@
   --card: #fffefa;
   --text: #1f2a22;
   --muted: #5b6a5f;
-  --accent: #315d45;
-  --accent-soft: #e3ece2;
+  --accent: #166534;
+  --accent-soft: #e6f2e0;
+  --logo-bar: #166534;
+  --logo-leaf: #84cc16;
   --line: #dfe3da;
 }
 
@@ -15,8 +17,10 @@
     --card: #1e2520;
     --text: #e8ece6;
     --muted: #a3b0a6;
-    --accent: #8cc39a;
-    --accent-soft: #26302a;
+    --accent: #4ade80;
+    --accent-soft: #233026;
+    --logo-bar: #4ade80;
+    --logo-leaf: #bef264;
     --line: #2f3a32;
   }
 }
@@ -53,11 +57,28 @@ header.site .wrap {
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   font-weight: 700;
-  font-size: 1.25rem;
-  letter-spacing: 0.02em;
+  font-size: 1.5rem;
+  letter-spacing: -0.02em;
   color: var(--text);
   text-decoration: none;
+}
+
+.brand .logo {
+  width: 34px;
+  height: 34px;
+  flex: none;
+}
+
+.logo-bar {
+  fill: var(--logo-bar);
+}
+
+.logo-leaf {
+  fill: var(--logo-leaf);
 }
 
 .lang {
