@@ -135,6 +135,21 @@ h2 {
   margin: 0 0 8px;
 }
 
+.store {
+  display: inline-block;
+  background: var(--accent-soft);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 6px 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.store:hover,
+.store:focus-visible {
+  text-decoration: underline;
+}
+
 .meta {
   color: var(--muted);
   font-size: 0.95rem;
