@@ -113,6 +113,10 @@ h2 {
   padding: 24px;
 }
 
+.card + .card {
+  margin-top: 16px;
+}
+
 .app {
   display: flex;
   gap: 20px;
@@ -162,6 +166,13 @@ h2 {
 
 .policy ul {
   padding-left: 1.2em;
+}
+
+/* Tekniska namn (behörigheter, webbadresser) får brytas mitt i, annars sticker de ut på smala skärmar */
+.policy code {
+  font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
+  font-size: 0.9em;
+  overflow-wrap: anywhere;
 }
 
 .summary {

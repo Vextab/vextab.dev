@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="18 18 72 72">
+<!-- Såtids ikon "Kalendergrodd". Kopia av originalet i apps/satid/store/ikon/satid-ikon.svg,
+     beskuren till mitten 72×72 (det som syns i telefonen). Ändras ikonen: ändra originalet först. -->
+<rect width="108" height="108" fill="#ecfccb"/>
+<path d="M37,33 H71 A8,8 0 0 1 79,41 V72 A8,8 0 0 1 71,80 H37 A8,8 0 0 1 29,72 V41 A8,8 0 0 1 37,33 Z" fill="#ffffff"/><path d="M29,41 A8,8 0 0 1 37,33 H71 A8,8 0 0 1 79,41 V46 H29 Z" fill="#166534"/><path d="M41.5,27.5 A2.5,2.5 0 0 1 44,30 V36 A2.5,2.5 0 0 1 39,36 V30 A2.5,2.5 0 0 1 41.5,27.5 Z" fill="#0d3d20"/><path d="M66.5,27.5 A2.5,2.5 0 0 1 69,30 V36 A2.5,2.5 0 0 1 64,36 V30 A2.5,2.5 0 0 1 66.5,27.5 Z" fill="#0d3d20"/><path d="M43.75,73 H64.25 A1.75,1.75 0 0 1 64.25,76.5 H43.75 A1.75,1.75 0 0 1 43.75,73 Z" fill="#d9f99d"/><path d="M54 73.5 V59" stroke="#166534" stroke-width="3.2" stroke-linecap="round"/><path d="M54,66 C47,66 42,62 40.5,54.5 C48,54.5 53,58.5 54,66 Z" fill="#84cc16"/><path d="M54,60 C55,52.5 61,48 68.5,48.5 C68,56 62,60.5 54,60 Z" fill="#166534"/>
+</svg>
